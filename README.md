@@ -38,7 +38,7 @@ Uma ferramenta web para criar imagens personalizadas com números e letras em fo
 ```
 ⚙️ Funcionamento Técnico
 Lógica de Renderização
-
+```Javascript
 function generateImage() {
     let displayText = combined || (number + letter);
     
@@ -56,6 +56,7 @@ function generateImage() {
 }
 ```
 Event Listeners
+```Javascript
 document.getElementById('numberInput').addEventListener('input', generateImage);
 document.getElementById('clearButton').addEventListener('click', clearFields);
 
@@ -68,40 +69,27 @@ gerador-numeros-letras/
 
 🚀 Como Usar
 Insira seu conteúdo:
-
 Número no campo "Número"
-
 Letra no campo "Letra"
-
 Ou combinação no campo "Número e Letra"
 
 Personalize:
-
 Selecione o formato (círculo ou quadrado)
-
 Escolha as cores de fundo e texto
 
 Exporte:
-
 Clique em "Baixar Imagem" para PNG
-
 Clique em "Baixar Ícone" para ICO
-
 Use "Limpar Conteúdo" para recomeçar
 
 🛠️ Tecnologias Utilizadas
 Frontend
-
 HTML5 Canvas para renderização
-
 CSS Flexbox para layout
-
 JavaScript ES6 para lógica
 
 Bibliotecas
-
 Bootstrap para componentes básicos
-
 Font Awesome para ícones
 
 📜 Licença
