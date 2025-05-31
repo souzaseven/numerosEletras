@@ -36,7 +36,7 @@ Uma ferramenta web para criar imagens personalizadas com números e letras em fo
     border-radius: 5px;
 }
 ```
-⚙️ Funcionamento Técnico
+## ⚙️ Funcionamento Técnico
 Lógica de Renderização
 ```Javascript
 function generateImage() {
